@@ -2,6 +2,8 @@
 	background-color:steelblue;
 }
 
+header, section, footer, aside, nav, main, article, figure { display: block; }
+
 .headerlogo img{
 	top:.75em;
 	left:.5em;
@@ -25,14 +27,49 @@
 }
 
 .navbar-background{
-	width:100%;
-}
-.navbar-background ul{
-	list-style: none; 
+	height: 45px;
+	width: 100%;
+	margin-bottom: 5px;
+	margin-top: 20px;
+	padding-left: 5px;
 }
 
-.navbar-background ul li{
-	display:block;
+.navbar-background ul {
+	list-style: none;
+	padding: 0px;
+}
+
+.navbar-background ul li {
+	display: block;
+}
+
+.navbar-background ul li > a {
+	text-decoration: none;
+}
+
+.navbar-background ul li > a:hover {
+	text-decoration: underline;
+}
+
+.navbar-background{
+	background-color: #E70909;
+}
+
+.navlink {
+	height: 35px;
+	margin-right: 10px;
+	font-size: 18px;
+	float: left;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 12px;
+	color: white;
+	text-decoration: none;
+}
+
+#active{
+	color: red;
+	background-color: white;
 }
 
 #welcometext { column-count: 2; }
