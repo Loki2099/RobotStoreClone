@@ -1,0 +1,38 @@
+﻿body{
+	background-color:steelblue;
+}
+
+.headerlogo img{
+	top:.75em;
+	left:.5em;
+	height: 10em;
+	width: 10em;
+}
+
+#headername{
+	position:absolute;
+	top:.75em;
+	left:5.5em;
+	font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-size:2.5em;
+	font-weight:bolder;
+}
+
+.searchbox{
+	position:absolute;
+	top:.75em;
+	right:.5em;
+}
+
+.navbar-background{
+	width:100%;
+}
+.navbar-background ul{
+	list-style: none; 
+}
+
+.navbar-background ul li{
+	display:block;
+}
+
+#welcometext { column-count: 2; }
